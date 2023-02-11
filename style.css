@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to top, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100px;
+    width: 100%;
+   
+    
+}
+.warsty-section{
+    color: blanchedalmond;
+    width: 90%;
+    padding: 30px;
+     height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 50px;
+    margin-right: 450px;
+}
+nav h1{
+    font-size: 40px;
+    margin-left: 50px;
+    border-top: 20px;
+}
+
+.sign-btn{
+    height: 30px;
+    width: 80px;
+    border-radius: 15px;
+    
+    margin-left: 150px;
+}
+
+
+.hero-section{
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.herotext-section{
+    font-size: 35px;
+    margin: 30px;
+    background-color: blanchedalmondz   ;
+}
+img{
+    margin-right: 50px;
+    height: 600px;
+    
+}
+.herotext-section h1{
+    font-size: 70px;
+    color: rgb(235, 201, 201);
+    padding: 20px;
+}
+.herotext-section p{
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.explore-btn{
+    background-color: rgb(122, 134, 132);
+    width: 150px;
+    height: 45px;
+    border-bottom: none;
+    color: white;
+    margin-top: 50px;
+    
+}
